@@ -1,0 +1,8 @@
+print("Opening the file")
+fh=open("1KBfile.txt","w")
+print("Writing in the files")
+fh.write(" ")
+fh.seek(1000,0)
+print(fh.tell())
+print("Closing the file")
+fh.close()
